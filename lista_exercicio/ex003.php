@@ -1,6 +1,10 @@
 <!--3. Operações Matemáticas-->
 
 <?php
-    $numero1 = readline(prompt: "Digite o primeiro numero 1: ");
-    $numero2 = readline(prompt: "Digite o segundo numero 2: ");
+    $first_value = readline( prompt: "Digite o primeiro valor: ");
+    $second_value = readline( prompt: "Digite o segundo valor: ");
+
+    $soma = $first_value + $second_value;
+
+    echo "A soma dos $first_value e $second_value foi $soma";
 ?>
