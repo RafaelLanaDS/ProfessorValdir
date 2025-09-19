@@ -1,38 +1,32 @@
 <?php
 
-class Pessoa
+class Pessoa 
 {
-    // Atributos da pessoa
-    public string $nome;     // Nome da pessoa
-    public string $cpf;      // CPF da pessoa
-    public array $contas;    // Lista de contas da pessoa
+    public string $nome;
+    public string $cpf;
+    public ContaBancaria $conta;
 
-    // Construtor (executa quando criamos o objeto)
     public function __construct(string $nome, string $cpf)
     {
-        $this->nome = $nome;     // Define o nome
-        $this->cpf = $cpf;       // Define o CPF
-        $this->contas = [];      // Começa com lista de contas vazia
+        $this->nome = $nome;
+        $this->cpf = $cpf;
     }
 
-    // Função para adicionar uma conta na lista
-    public function adicionarConta(ContaBancaria $conta): bool
+    public function adicionarConta(ContaBancaria $conta): bool 
     {
-        // Se o número da conta estiver vazio, retorna falso
-        if (empty($conta)) {
+        if (empty($conta->getNumeroConta())) {
             return false;
-        } 
-        else {
-            // Adiciona a conta na lista
-            $this->contas[] = $conta;
-            return true; // Deu certo
         }
+
+        $this->conta = $conta;
+        return true;
     }
 
-    //ela retorna um array com contotas as contas dessa pessoa
-    public function listaConta(): array{
-        return $this -> contas;
+    public function hello(): string
+    {
+        return "Olá, {$this->nome}! Você é um cliente no AgiotaBank";
     }
 }
 
-
+$usuario1 = new Pessoa("João", "268.702.558-57");
+echo $usuario1->hello();

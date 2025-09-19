@@ -12,5 +12,5 @@ $conta2-> depositar(700.50);
 $conta2-> sacar(265.78);
 
 echo "Titular: {$pessoa2->nome} <br>";
-echo "CPF: {$pessoa2->cpf} <br>"
-?>261
+echo "CPF: {$pessoa2->cpf} <br>";
+?>
