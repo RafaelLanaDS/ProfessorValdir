@@ -1,16 +1,28 @@
 <?php 
-    class aluno{
-        public $nome;
-        public $matricula;
+class livro {
+    public $titulo;
+    public $autor;
+    public $paginas;
 
-        //mostra nome e matricula
-        public function exibir_dados(){
-            return "Nome: $this->nome, Matricula: $this->matricula"; 
-        }
+    //mostrar titulo e autor
+    public function exibir_resumo(){
+        return "Livro: $this->titulo Autor:  $this->autor Paginas: $this->paginas";
+        
     }
-$aluno1 = new aluno();
-$aluno1-> nome = "Rafael";
-$aluno1-> matricula = "2040106";
-echo $aluno1->exibir_dados();
 
+    // retornar numero de paginas
+    //public function quantidade_paginas(){
+      //  return "Paginas: $this->paginas";
+    //}
+    
+    //exemplo de uso
+
+}
+$livro1 = new livro();
+$livro1->titulo = "Entendendo Algoritimos";
+$livro1->autor = "Aditya Y. Bhargava";
+$livro1->paginas = 263;
+
+echo $livro1->exibir_resumo();
+//echo $livro1->quantidade_paginas();
 ?>
