@@ -26,3 +26,6 @@ echo $l3->titulo . " - Progresso: " . $l3->verificador_progresso() . "%\n";
 echo $l1->titulo . " - Progresso: " . $l1->verificador_progresso() . "%\n";
     
 ?>
+<!--
+Classe que armazena título e quantidade de páginas. Oferece método para calcular o progresso de leitura em porcentagem.
+-->

@@ -1,2 +1,2 @@
-Nome: Rafael Lana de Sousa RA: 2040106
-Turma_ADS2_Turma-C_2025_P1_POO
+ADS Turma:C 2025_P1_POO
+NOME: Rafael Lana de Sousa RA:2040106

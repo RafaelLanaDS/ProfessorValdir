@@ -28,3 +28,6 @@ $i1 = new item_pedido($p1, 2);
 
 echo $p1->nome . " - Subtotal: R$ " . number_format($i1->subtotal(),2,',','.')
 ?>
+<!--
+Classe que relaciona produto e quantidade. Calcula o subtotal multiplicando preço do produto pela quantidade.
+-->

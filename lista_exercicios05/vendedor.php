@@ -40,3 +40,6 @@ $v->fazer_venda(3000);
 echo $v->nome . " - Salario Total: R$" . number_format($v->salario_total(),2,',','.') . "\n";
 echo "Valor da comissão: " . number_format($v->valor_comissao())
 ?>
+<!--
+Classe que guarda dados de um vendedor, com salário base e comissão. Permite registrar vendas e calcular o salário total com comissão.
+-->

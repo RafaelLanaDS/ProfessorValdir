@@ -33,3 +33,6 @@ $d2 = new Disciplina("Estruturas", 3.0, 4.0);
 echo $d1->nome . " - Média: " . $d1->calcularMediaPonderada() . " - Situação: " . $d1->situacao() . "\n";
 echo $d2->nome . " - Média: " . $d2->calcularMediaPonderada() . " - Situação: " . $d2->situacao() . "\n";
 ?>
+<!--
+Classe que armazena notas de trabalho e prova. Calcula média ponderada (40% trabalho, 60% prova) e retorna situação do aluno.
+-->

@@ -42,3 +42,6 @@ echo "Aluno: $a1->nome " . " RA: $a1->ra" . " Disciplina: $a1->diciplina" . "\n"
 echo "Media: " . $a1->calcular_media() . " Situação: " . $a1->situcao();
     
 ?>
+<!--
+Classe que armazena nome, RA, disciplina e notas. Tem métodos para calcular média e retornar a situação do aluno (Aprovado, Exame ou Reprovado).
+-->

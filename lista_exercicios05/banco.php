@@ -68,3 +68,6 @@ if ($c1->transferir(300, $c2)) {
 echo $c1->titular . " - Saldo: R$ " . number_format($c1->saldo,2,',','.') . "\n";
 echo $c2->titular . " - Saldo: R$ " . number_format($c2->saldo,2,',','.') . "\n";
 ?>
+<!--
+Classe Conta com número, titular e saldo. Implementa métodos para depositar, sacar e transferir entre contas com validações.
+-->

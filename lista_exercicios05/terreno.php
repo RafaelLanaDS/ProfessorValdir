@@ -22,3 +22,6 @@
 $t = new terreno(10, 20, 50);
 echo "Area T1: " . $t->area() . "M² - preço: R$ " . number_format($t->preco_total(),2, ',','.');
 ?>
+<!--
+Classe que representa largura, comprimento e preço por metro. Calcula a área do terreno e o valor total com base no preço por metro.
+-->

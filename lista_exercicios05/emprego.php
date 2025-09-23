@@ -25,3 +25,6 @@ $empregado2 = new empregado("Valdir", "Pereira", "Professor", 20000);
 echo $empregado1->nome . " " . $empregado1->sobrenome . " - " . $empregado1->setor . " Salario Anual: R$ " . number_format($empregado1-> salario_anual(), 2, '.' , ',') . "\n";
 echo $empregado2->nome . " " . $empregado2->sobrenome . " - " . $empregado2->setor .  " Salario Anual: R$ " . number_format($empregado2-> salario_anual(), 2, '.' , ',') . "\n";
 ?>
+<!--
+Classe com nome, sobrenome, setor e salário mensal. Possui construtor que corrige salários inválidos e método para calcular o salário anual.
+-->

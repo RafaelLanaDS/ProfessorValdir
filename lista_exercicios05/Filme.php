@@ -20,3 +20,6 @@ $f1 = new filme("Aventura", 180, "18+");
 
 echo $f1->descricao_curta()
 ?>
+<!--
+Classe que guarda título, duração e classificação. Possui método para exibir uma descrição curta formatada.
+-->

@@ -40,3 +40,6 @@ var_dump($c->fazer_compra(200)); // nao ecedeu o limite
 var_dump($c->fazer_compra(400)); // ultrapasou o limite 
 echo "Fatura: R$" . number_format($c->total_fatura()) . "\n";
 ?>      
+<!--
+Classe que representa um cartão de crédito com limite e fatura. Possui método para registrar compras respeitando o limite e consultar o total da fatura.
+-->
