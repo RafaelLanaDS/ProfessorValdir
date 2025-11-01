@@ -24,6 +24,7 @@ class animal
     {
         return "Animal fazendo barulho !";
     }
+
     public function descrever(): string
     {
         return "Eu me chamo {$this->nome}";

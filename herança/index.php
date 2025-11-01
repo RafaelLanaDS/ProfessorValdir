@@ -9,9 +9,9 @@
 
     echo $animal->descrever() . "<br>"; 
     echo $animal->fazBarulho() . "<br>"; 
-    echo $gato->ArranhaSofa() . "<br>";
+    echo $gato->descrever() . "<br>";
 
+    echo $gato->ArranhaSofa() . "<br>";
     echo $cachorro->descrever() . "<br>"; 
     echo $cachorro->fazBarulho() . "<br>";
-    echo $gato->ArranhaSofa() . "<br>";
 ?>
