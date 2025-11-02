@@ -4,7 +4,7 @@ require_once "conta.php";
 class ContaCorrente extends ContaBancaria {
     private float $limite;
 
-    public function setLimite(float $limite): void {
+    public function setLimite(float $limite): void { // set altera o valor do atributo (limite) /  void indica que a função nao retorna um valor 
         $this->limite = $limite;
     }
 
